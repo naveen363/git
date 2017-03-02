@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+$name = <STDIN>;
+@array = ("Naveen", "Reddy", "reddyg\@gmail.com", "25");
+print "Number of elements in \@array is $#array \n";
+print "values in \@array at the beginning --- @array --- \n";
+push (@array,"six \n");
+print "values in \@array after push --- @array --- \n"; 
+
+pop(@array);
+pop(@array);
+print "values in \@array after pop -- @array -- \n";
+
+shift(@array);
+print "values in \@array after shift -- @array -- \n";
